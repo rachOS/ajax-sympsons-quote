@@ -1,0 +1,54 @@
+@font-face{
+    font-family: Sympson;
+    src: local('Simpsonfont\ DEMO') url(../font/Simpsonfont\ DEMO.otf) format('otf');
+}
+
+.Quotes{
+    border-radius: 10%;
+    height: 128px;
+    display:flex;
+    align-items:center;
+    background-color: rgb(139, 139, 139);
+    border: 1px solid;
+}
+blockquote{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 64px;
+    padding: 16px;
+    width: fit-content;
+    margin: 5px auto;
+}
+
+.avatar{
+    border: 2px solid;
+    width: 256px;
+    height: 320px;
+    margin: 5px;
+    padding: 32px;
+}
+
+img{
+    height: inherit;
+    width: initial;
+}
+.content{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.charachter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+
+}
+
+.characName{
+    margin: 0 auto;
+    padding: 16px;
+    font-family: monospace;
+}
